@@ -23,4 +23,6 @@
 
 具体实现请看代码，效果如图所示
 
-![演示](https://github.com/yushiwo/ScaleVideoView/blob/master/art/demo.gif?raw=true)
+<img src="https://github.com/yushiwo/ScaleVideoView/blob/master/art/demo.gif?raw=true" width="320" height="640" alt="截图演示"/>
+
+
