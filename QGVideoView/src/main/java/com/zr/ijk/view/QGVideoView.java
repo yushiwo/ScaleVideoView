@@ -1,4 +1,4 @@
-package com.zr.example.view;
+package com.zr.ijk.view;
 
 
 
@@ -19,7 +19,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 import android.widget.FrameLayout;
 
-import com.zr.example.view.widget.VideoView;
+import com.zr.ijk.view.widget.VideoView;
 
 
 public class QGVideoView extends FrameLayout implements IMediaPlayer.OnPreparedListener,IMediaPlayer.OnCompletionListener,

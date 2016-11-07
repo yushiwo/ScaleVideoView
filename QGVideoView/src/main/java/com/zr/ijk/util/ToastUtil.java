@@ -1,4 +1,4 @@
-package com.zr.example.util;
+package com.zr.ijk.util;
 
 import android.content.Context;
 import android.view.Gravity;

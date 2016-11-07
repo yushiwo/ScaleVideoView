@@ -1,17 +1,17 @@
-package com.zr.example.demo;
+package com.netease.zr.demo;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.zr.example.R;
-import com.zr.example.util.ToastUtil;
-import com.zr.example.view.QGVideoView;
+import com.netease.zr.myapplication.R;
+import com.zr.ijk.util.ToastUtil;
+import com.zr.ijk.view.QGVideoView;
 
 
 public class PortraitPlayActivity extends AppCompatActivity implements View.OnClickListener{
@@ -77,15 +77,14 @@ public class PortraitPlayActivity extends AppCompatActivity implements View.OnCl
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.btn_snap:
-                if(mRealVideoView.isPlaying()){
-                    mSnapImageView.setImageBitmap(mRealVideoView.getSnapShot());
-                }else {
-                    ToastUtil.showToast(mContext, "请在视频播放状态下截图");
-                }
+        int i = v.getId();
+        if (i == R.id.btn_snap) {
+            if (mRealVideoView.isPlaying()) {
+                mSnapImageView.setImageBitmap(mRealVideoView.getSnapShot());
+            } else {
+                ToastUtil.showToast(mContext, "请在视频播放状态下截图");
+            }
 
-                break;
         }
     }
 }

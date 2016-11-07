@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="ijkmediaplayer">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/ijkmediaplayer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/QGVideoView/libs/ijkmediaplayer.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

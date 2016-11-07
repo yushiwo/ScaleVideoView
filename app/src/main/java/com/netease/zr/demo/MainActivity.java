@@ -1,4 +1,4 @@
-package com.zr.example.demo;
+package com.netease.zr.demo;
 
 
 import android.app.Activity;
@@ -9,7 +9,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.zr.example.R;
+import com.netease.zr.myapplication.R;
 
 
 public class MainActivity extends Activity implements OnClickListener{
@@ -51,13 +51,12 @@ public class MainActivity extends Activity implements OnClickListener{
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.portrait_btn:
-                String url = mEditURL.getText().toString().trim();
-                Intent intent = new Intent(MainActivity.this, PortraitPlayActivity.class);
-                intent.putExtra("videoPath", url);
-                startActivity(intent);
-                break;
+        int i = v.getId();
+        if (i == R.id.portrait_btn) {
+            String url = mEditURL.getText().toString().trim();
+            Intent intent = new Intent(MainActivity.this, PortraitPlayActivity.class);
+            intent.putExtra("videoPath", url);
+            startActivity(intent);
 
         }
     }

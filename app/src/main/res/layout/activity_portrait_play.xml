@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <com.zr.example.view.QGVideoView
+    <com.zr.ijk.view.QGVideoView
         android:id="@+id/video_portrait"
         android:layout_centerInParent="true"
         android:background="#000000"

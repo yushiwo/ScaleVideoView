@@ -1,4 +1,4 @@
-package com.zr.example.view.widget;
+package com.zr.ijk.view.widget;
 
 /**
  * Created by netease on 16/6/3.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.zr.example.view.widget;
+package com.zr.ijk.view.widget;
 
 import java.util.Locale;
 import android.util.Log;

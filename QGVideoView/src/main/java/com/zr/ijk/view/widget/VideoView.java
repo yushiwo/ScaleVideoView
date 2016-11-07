@@ -1,4 +1,4 @@
-package com.zr.example.view.widget;
+package com.zr.ijk.view.widget;
 
 
 import android.annotation.TargetApi;
